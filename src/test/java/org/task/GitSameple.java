@@ -3,13 +3,17 @@ package org.task;
 import org.junit.Test;
 
 public class GitSameple {
-	public class A {
-		@Test
-		public  void test1() {
-			// TODO Auto-generated method stub
+	private static void master() {
+		System.out.println("Master");
 
+	}
+	private static void kick() {
+		System.out.println("Kick");
 
-		System.out.println("Test A");
-		}
-}
+	}
+	public static void main(String[] args) {
+		master();
+		kick();
+	}	
+
 }
