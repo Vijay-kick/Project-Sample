@@ -11,9 +11,16 @@ public class GitSameple {
 		System.out.println("Kick");
 
 	}
-	public static void main(String[] args) {
-		master();
-		kick();
-	}	
+	
+
+
+private static void vijay() {
+	System.out.println("Vijay");
 
 }
+public static void main(String[] args) {
+	master();
+	vijay();
+	kick();
+
+}}
